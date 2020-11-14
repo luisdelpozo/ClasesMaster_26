@@ -1,5 +1,3 @@
-
-
 echo $Shell
 echo $SHELL
 echo $TERM
@@ -249,4 +247,76 @@ mkdir Shell
 mkdir Python
 mkdir Challenge
 cd Shell
+cat ~/.history > Shell_clase2020-11-14.txt
+ll
+gedit Shell_clase2020-11-14.txt
+git add Shell_clase2020-11-14.txt
+cd ..ç
+git status
+git commit -m "commands ls, pipe, head, tail, less"
+git remote add origin https://github.com/luisdelpozo/ClasesMaster_26.git
+git branch -M mai
+git show-branch 
+git branch -M main
+git push -u origin main
+cd ..
+ll
+cd Shell
+gedit Shell_clase2020-11-14.txt
+cd ..
+git add -u
+git commit -m "Two lines added"
+git push
+cd
+find | wc -l
+find . -name "text_file*"
+find -name "text_file*"
+find -name "tExt_file*"
+find -iname "tExt_file*"
+find -type d -iname "tExt_file*"
+find -type f -iname "tExt_file*"
+find -type f -maxdepth -iname "tExt_file*"
+find -type f -mindepth -iname "tExt_file*"
+find -type f -maxdepth 5 -iname "tExt_file*"
+find -type f -maxdepth 5 -mindepth 2 -iname "tExt_file*"
+find -type f -perm 777
+sudo find -type -f -perm 777
+sudo find -type f -perm 777
+find -type f erm 777
+find -type f -perm 777
+find -type f -size 0 | wc -l
+find -type f -size +10M | wc -l
+find -type f -mmin -60
+find -type f -iname "text_file*"
+find -type f -iname "text_file*" | wc
+find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+echo this ; echo that
+echo this \; echo that
+find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+ls -l kschool-master-26
+find -type f -iname "text_file*" -exec ls -l {} \;
+find -type f -iname "text_file*" -exec ls -l {} \; -exec head -2 {} \;
+find -type f -iname "text_file*" -ok ls -l {} \;
+find -type f -iname "text_file*" -ok rm -rf {} \;
+find -type f -iname "text_file*" -exec head -2 {} | wc \;
+bash -c "echo This"
+bash -c "cd ../ ; ls -l > ./dsc/file"
+find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc" \;
+find -type f -mmin -60
+find -type f -mmin -60 | wc
+find -type f -size 0 erm 777
+find -type f -size 0 ! -perm 777
+find -type f -size 0 ! -perm 777 | wc
+find -type f -size 0 ! -perm 777 -ok
+find -ok -type f -size 0 ! -perm 777
+find -type f -size 0 ! -perm 777 -ok \;
+find -type f -size 0 ! -perm 777 -ok ll -l \;
+find -type f -size 0 ! -ok -perm 777 \;
+find -type f -size 0 ! -ok perm 777 \;
+find -type f -size 0 ! -perm 777 -ok chmod 777 {} \;
+cd Data
+cd
+cd Repos
+cd ClasesMaster/Shell
+ll
 cat ~/.history > Shell_clase2020-11-14.txt
