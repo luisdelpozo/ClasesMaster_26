@@ -1,3 +1,5 @@
+
+
 echo $Shell
 echo $SHELL
 echo $TERM
