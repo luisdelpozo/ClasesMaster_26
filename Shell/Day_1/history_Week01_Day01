@@ -1,0 +1,156 @@
+conda --version
+clear
+echo $SHELL
+echo $TERM
+whoai
+whoami
+echo $HOST
+echo $USER
+echo HOST
+printenv
+printenv USER
+clear
+echo HOLI
+echo $HOST
+echo "$HOST "
+echo "my name is $HOST "
+echo '$HOST'
+echo date
+date
+echo today is date
+echo today is `date`
+echo today is `echo date`
+echo today is ``echo date``
+echo today is $(echo date)
+echo today is $(date)
+echo today is $(echo $(date))
+clear
+echo "the world is finally\
+mineclearclear"
+echo "hoy esss \\
+mi dia\
+\
+"
+echo '\
+sadfpoij\
+asdcoijsd\
+coicoas
+echo "my favorite is "Moby Dick""
+echo "my favorite is \"Moby Dick\""
+ls
+clear
+echo \n
+echo "THis is in \n two lines"
+echo "THis is in \tone\tlines"
+echo holi
+echo guapi
+echo holi; echo guapi
+clear
+for f in $(ls); do echo "there is a $f"; done
+clear
+cat /etc/os-release
+clear
+cd Data/shell
+ls
+cat Text_example.txt
+cat Text_example.txt Text_example.txt Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+pwd
+cd ~
+# dffs
+echo $PWD
+cd /etc
+ls
+cd zsh
+cd /home/dsc
+cd /home/dsc/Data/shell
+cd .etc
+cd /etc
+cd /home/dsc/Data/shell
+cd ~
+cd Data/shell
+cd .
+cd ..
+cd -
+cd /etc
+cd -
+cd ~
+clear
+ls
+ls -a
+ls -al
+ls -1
+ls -s
+ls -1 -s
+ls --help
+ls -lsH
+ls -l -1
+ls -l -1 -s
+ls -l1s
+ls -la
+ls -Sr
+ls -aSr
+ls -laSr
+ls -laS
+ls -lat
+chmod 777 .history
+ls -l .history
+chmod 755 .history
+ls -l .history
+chmod 644 .history
+ls -l .history
+chmod 600 .history
+ls -l .history
+mkdir holiguapi
+ls
+mkdir holiguapi/cosas/nazis
+mkdir -p holiguapi/cosas/nazis
+touch newfile
+ls
+ls -l
+touch anaconda3
+ls -l
+cp newfile holiguapi/cosas/nazis
+ls holiguapi/cosas/nazis
+cp holiguapi mynuevofolder
+cp -r holiguapi mynuevofolder
+mv holiguapi mynuevofolder/
+ls 
+ls mynuevofolder
+mv mynuevofolder toguapo
+ls
+rm toguapo
+rm -rf toguapo
+touch text_file.txt
+ls -l text_file.txt
+chmod 775 text_file.txt
+mkdir -p first_dir/sub1/sub2
+cp text_file.txt first_dir/sub1/sub2
+mv first_dir/sub1/sub2/text_file.txt first_dir/sub1/textfile.txt.2
+ls first_dir/sub1/textfile.txt.2
+mv  first_dir/sub1/textfile.txt.2 first_dir/sub1/textfile.txt.backup
+ls
+clear
+git
+clear
+git config --global user.name "Daniel Mateos"
+git config --global user.email "daniel@mateos.io"
+cat ~/.git/config
+cat ~/.gitconfig
+git clone https://github.com/danimateos/kschool-master-26.git
+ls
+clear
+ls
+cd kschool-master-26
+ls
+ls -a
+touch chachi_file
+git status
+touch lame_file
+git status
+git add chachi_file
+git status
+git commit -m 'Aniado un archivo chachi'
+git status
+git push
+git diff
